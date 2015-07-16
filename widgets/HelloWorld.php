@@ -1,16 +1,15 @@
 <?php
 
-namespace davidjeddy\hellowworld\widgets;
+namespace davidjeddy\helloworld\widgets;
 
-class HelloWorld {
+class HelloWorld extends \yii\base\Widget {
 
     /**
      * [run description]
      * @return [type] [description]
      */
     public function run() {
-        echo 'Hello World';
 
-        return true;
+        return 'Hello World';
     }
 }
