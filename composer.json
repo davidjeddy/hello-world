@@ -1,0 +1,20 @@
+{
+    "name": "davidjeddy/hello-world",
+    "description": "Basic Yii2 composer example widget package.",
+    "type": "yii2-widget",
+    "keywords": ["yii2", "example"],
+    "minimum-stability": "dev",
+    "license": "na",
+    "authors": [
+        {
+            "name": "David J Eddy",
+            "email": "me@davidjeddy.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": { "davidjeddy\\helloworld\\": "" }
+    }
+}
